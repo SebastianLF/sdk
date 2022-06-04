@@ -18,7 +18,7 @@ const getProvider = (withWalletProvider?: boolean) => {
     return state.walletProvider
   }
 
-  return new JsonRpcProvider(config.rpcUrl)
+  return new JsonRpcProvider(config.rpcUrl, state.selectedChainId)
 }
 
 export default getProvider
