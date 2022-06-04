@@ -1,6 +1,6 @@
 {
-  "name": "@azuro-protocol/sdk",
-  "version": "0.2.1",
+  "name": "@SebastianLF/azuro-sdk",
+  "version": "0.2.2",
   "engines": {
     "node": "=14.17.4",
     "npm": "=6.14.14"
@@ -9,14 +9,14 @@
     "contractsVersion": "release-1.6"
   },
   "author": {
-    "name": "Pavel Ivanov",
-    "email": "grammka@gmail.com"
+    "name": "Sebastian LF",
+    "email": "slf.pro@gmail.com"
   },
   "description": "Azuro SDK",
   "homepage": "https://github.com/Azuro-protocol/sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Azuro-protocol/sdk.git"
+    "url": "git+https://github.com/SebastianLF/sdk.git"
   },
   "keywords": [
     "betting",
