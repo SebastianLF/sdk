@@ -37,7 +37,8 @@
     "typechain": "typechain --target ethers-v5 --out-dir ./src/contracts/types './src/contracts/abis/*.json'",
     "dev": "rollup -cw",
     "build": "rimraf ./dist && rimraf ./lib && npm run typechain && rollup -c --compact",
-    "prepublish": "npm run build && npm run test"
+    "prepublish": "npm run build && npm run test",
+    "prepublishOnly": "npm run build && npm run test"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
